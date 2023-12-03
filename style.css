@@ -140,6 +140,7 @@ img {
 .right__side__head {
     display: flex;
     margin-left: 63px;
+    align-self: center;
 }
 .rectangle {
     background-color: #f16d7f;

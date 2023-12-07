@@ -34,7 +34,7 @@ img {
 #menu__toggle {
     opacity: 0;
 }
-#menu__toggle:checked ~ .menu__box {
+#menu__toggle:hover ~ .menu__box {
     display: flex;
 }
 .menu__btn {
@@ -67,6 +67,7 @@ img {
   position: absolute;
   flex-direction: column;
   top: 75px;
+  right: 5%;
   width: 232px;
   height: 634px;
   margin: 0;
@@ -742,6 +743,7 @@ span.h2pink {
 
     .footer__subscribe {
         height: 550px;
+        background-size: cover;
     }
     .footer__blur {
         height: 550px;
